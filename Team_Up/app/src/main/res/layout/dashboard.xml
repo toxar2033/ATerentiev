@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ll_chatbcgr"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/ch_notes"
+        android:id="@+id/btn_notes"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_back"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/message_recycler"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edit_text_hint"
+            android:id="@+id/message_input"
+            android:background="@drawable/rectangular_field"
+            android:textSize="24dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/send_message_b"
+            android:text="@string/send_button_name"
+            android:textSize="24dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/button_back"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

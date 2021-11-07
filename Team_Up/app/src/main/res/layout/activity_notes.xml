@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E88E5"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/notes_background"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/your_notes"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_info"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/type"
+                android:padding="3dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/mainInfo_ET"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/rectangular_field"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chara"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/type"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/character_ET"
+                android:padding="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/rectangular_field"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/inter"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/type"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/interests_ET"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="3dp"
+                android:background="@drawable/rectangular_field"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hobbys"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/type"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/hobbys_ET"
+                android:padding="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/rectangular_field"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/btn_save_ch"
+                android:layout_margin="10dp"
+                android:id="@+id/btnHobbys"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/button_back"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

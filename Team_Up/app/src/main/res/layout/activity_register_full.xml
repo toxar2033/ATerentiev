@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E88E5"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registration"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step_2"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <EditText
+            android:id="@+id/e_surname"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:textSize="16dp"
+            android:background="@drawable/rectangular_field"
+            android:hint="@string/reg_surname"
+            android:paddingVertical="15dp"
+            android:inputType="textPersonName"
+            android:paddingLeft="60dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/man_reg" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <EditText
+            android:id="@+id/e_name"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:textSize="16dp"
+            android:inputType="textPersonName"
+            android:background="@drawable/rectangular_field"
+            android:hint="@string/reg_name"
+            android:paddingVertical="15dp"
+            android:paddingLeft="60dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/man_reg" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <EditText
+            android:id="@+id/e_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:textSize="16dp"
+            android:background="@drawable/rectangular_field"
+            android:hint="@string/reg_lastname"
+            android:inputType="textPersonName"
+            android:paddingVertical="15dp"
+            android:paddingLeft="60dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/man_reg" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <EditText
+            android:id="@+id/e_school"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:textSize="16dp"
+            android:background="@drawable/rectangular_field"
+            android:hint="@string/reg_school"
+            android:paddingVertical="15dp"
+            android:paddingLeft="60dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/school_img" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <EditText
+            android:id="@+id/e_class"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:textSize="16dp"
+            android:background="@drawable/rectangular_field"
+            android:hint="@string/reg_class"
+            android:paddingVertical="15dp"
+            android:paddingLeft="60dp"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/school_img" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_applyregister"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/sign_up"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_back"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+</LinearLayout>
